@@ -1,4 +1,5 @@
 export default class Item {
+    
     private name: string;
     private price: number;
     private onSale: boolean;
@@ -8,4 +9,5 @@ export default class Item {
         this.price = price;
         this.onSale = onSale;
     }
+    
 }
